@@ -15,11 +15,6 @@ class ApplicationController < Sinatra::Base
     folders.to_json
   end
 
-  # get '/folders/all/recent' do # return all
-  #   folders = Folder.all.recently_changed
-  #   folders.to_json
-  # end
-
   # get '/folders/:id' do # return by ID
   #   folder = Folder.find(params[:id])
   #   folder.to_json
