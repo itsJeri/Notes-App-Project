@@ -88,7 +88,7 @@ const Folder = ({
 		{showMenu && (
 			<ContextMenu top={points.y} left={points.x}>
 				<ul>
-					<li onClick={() => onAddNote(folder.id)}>Add File</li>
+					<li onClick={() => onAddNote(folder.id)}>Add Note</li>
 					<li onClick={handleShowRename}>Rename</li>
 					<li onClick={handleShowModal}>Delete</li>
 				</ul>
