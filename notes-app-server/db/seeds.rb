@@ -9,6 +9,7 @@ n1 = Note.create(id: UUID.new.generate, title: Faker::Artist.name, body: "Is he 
 n2 = Note.create(id: UUID.new.generate, title: "Frank Sinatra", body: "Jokes", folder: f1)
 n3 = Note.create(id: UUID.new.generate, title: "ActiveRecord", body: "Made with Sinatra ActiveRecord", folder: f2)
 n4 = Note.create(id: UUID.new.generate, title: "React", body: "Made with React JS", folder: f3)
+n5 = Note.create(id: UUID.new.generate, title: "170+ WPM", body: "Typing 170+ Words Per Minute: https://medium.com/@ItsJeri/typing-170-words-per-minute-f40634e9c443", folder: f3)
 
 puts "🌱 Seeding tags..."
 t1 = Tag.create(id: UUID.new.generate, name: "ruby")
