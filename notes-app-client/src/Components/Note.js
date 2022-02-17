@@ -89,7 +89,7 @@ const Note = ({
 				</button>
 				</div>
 
-				<p>{note.body && note.body.substr(0, 30) + "..."}</p>
+				<p style={{whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis'}}>{note.body}</p>
 				<small className="note-meta">
 					Last Modified{" "}
 					{new Date(note.updated_at).toLocaleDateString("en-GB", {
